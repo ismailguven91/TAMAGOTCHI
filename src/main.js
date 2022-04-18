@@ -56,13 +56,6 @@ function startMyTama(e) {
         
     }
 
-    console.log(myTamagotchi.getHungerLevel());
-    console.log(myTamagotchi.hungerDrain());
-    console.log(myTamagotchi.happinessDrain());
-
-        
-    
-
     function playTama() {
         myTamagotchi.play();
         document.querySelector("#pHappy").innerText = myTamagotchi.getHappinessLevel();
@@ -70,7 +63,7 @@ function startMyTama(e) {
 
        
     myTamagotchi.isTamaDead();
-    
+    myTamagotchi.retartGame();    
 
 
 
